@@ -109,3 +109,27 @@ print("")
 # Average weight by sex and sport
 average_weight = df.groupby(['Sex', 'Sport'])['Weight'].mean()
 print(average_weight.head(100)) # I made it show 100 rows so it could show it for both female and males
+
+print("")
+print("")
+print("")
+
+# Filter gymnasts and save to new CSV
+gymnasts = df[df['Sport'] == 'Gymnastics']
+gymnasts.to_csv('gymnastics_athletes.csv', index=False)
+
+print("")
+print("")
+print("")
+
+# Athletes undetr 18 years of Age
+all_athletes_under_18 = df[df['Age'] < 18]
+all_athletes_under_18.to_csv('all_athletes_under_18.csv', index=False)
+
+print("")
+print("")
+print("")
+
+# Gold Medal
+Gold_Medal = df[df['Medal'] == 'Gold']
+Gold_Medal.to_csv('Gold_Medal_Athletes.csv', index=False)

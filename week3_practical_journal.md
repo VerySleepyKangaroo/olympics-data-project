@@ -42,3 +42,16 @@ Sorting by Weight:
     print(average_weight.head(100))
 
 ## Task 6: Exploring A Subset()
+
+Athletes Under 18 years of Age
+
+    # Athletes Under 18 years of Age
+    all_athletes_under_18 = df[df['Age'] < 18]
+    all_athletes_under_18.to_csv('all_athletes_under_18.csv', index=False)
+
+Athletes Who Got a Gold Medal
+
+    # Gold Medal
+    Gold_Medal = df[df['Medal'] == 'Gold']
+    Gold_Medal.to_csv('Gold_Medal_Athletes.csv', index=False)
+
