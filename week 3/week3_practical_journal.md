@@ -55,3 +55,28 @@ Athletes Who Got a Gold Medal
     Gold_Medal = df[df['Medal'] == 'Gold']
     Gold_Medal.to_csv('Gold_Medal_Athletes.csv', index=False)
 
+
+## Reflection Journal:
+
+1. **What was the easiest filtering task and why?**
+
+    Task 1 (Filtering basics) was the easiest filtering task as that was literally the 'basic' tasks
+
+2. **What was the most difficult grouping or sorting task?**
+
+    I felt that exporting the 'atheletes with gold medal' quite hard as I needed to use most the skills I learnt for it
+
+3. **What trends surprised you in the Olympic data?**
+
+    I was suprised to learn that there were children that were 14 competing the Olympics
+
+4. **What kinds of real-world questions could this kind of analysis help answer?**
+
+    It could help people check who got the most medals or which country has the most medals.
+
+**
+# Internal, Exportinh and Loading Data Files
+
+Why do you think these three operations are key to working with data and information?
+
+- Creating, Saving and Loading which are essential for data analysis and decision making

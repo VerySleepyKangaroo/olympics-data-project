@@ -119,7 +119,7 @@ gymnasts = df[df['Sport'] == 'Gymnastics']
 gymnasts.to_csv('gymnastics_athletes.csv', index=False)
 
 print("")
-print("")
+print("created gymnastics_athletes.csv")
 print("")
 
 # Athletes undetr 18 years of Age
@@ -127,9 +127,13 @@ all_athletes_under_18 = df[df['Age'] < 18]
 all_athletes_under_18.to_csv('all_athletes_under_18.csv', index=False)
 
 print("")
-print("")
+print("created all_athletes_under_18.csv")
 print("")
 
 # Gold Medal
 Gold_Medal = df[df['Medal'] == 'Gold']
 Gold_Medal.to_csv('Gold_Medal_Athletes.csv', index=False)
+
+print("")
+print("created Gold_Medal_Athletes.csv")
+print("")
