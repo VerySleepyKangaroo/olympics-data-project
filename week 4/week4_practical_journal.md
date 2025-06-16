@@ -20,5 +20,12 @@
     - Cons: Loss of information 
     - Pros: Improves data quality
 
-## Task 3:
-- 
+## Task 5:
+- Did cleaning improve the dataset?
+    - No it did not because there were no rows that were empty because we replaced them all with 'none'
+- What questions could now be answered more confidently?
+    - All the questions were already mostly answerable
+
+## Task 6:
+Everything about the file works and is not corrupted
+

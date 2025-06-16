@@ -50,3 +50,28 @@ Task 4:
 print(df_cleaned['Sex'].unique())
 print(df_cleaned['Medal'].unique())
 
+print("")
+print("")
+print("")
+
+"""
+Task 5:
+"""
+
+# Check again for missing values
+print(df_cleaned.isnull().sum())
+
+# Get stats after cleaning
+print(df_cleaned.describe())
+
+print("")
+print("")
+print("")
+
+"""
+Task 6: 
+"""
+# Save your cleaned version
+df_cleaned.to_csv("athlete_events_cleaned.csv", index=False)
+
+print("Saved")
